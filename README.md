@@ -1,43 +1,60 @@
-## 💻 Visão Geral
-O Script para OtPokemon executa a leitura de mensagens e checagem de posição do seu player ao ser rodado, identificando e realizando ações. Caso ache, mandará mensagens automaticamente que são programáveis, realizará movimentos e depois irá sair do jogo, voltando depois de um tempo definido e execuando o mesmo loop.
-	
+<h1 align="center">🎮 OtPokemon Check</h1>
 
-## 💡 Ideia e Incentivo
-O Script foi feito apenas para estudo e busca por fragilidades no jogo, sendo apenas para compreender melhor como funciona o sistema do jogo e como usar os códigos da biblioteca Pyautogui.
+<p align="center">
+  Bot de automação por <b>visão de tela</b> para o jogo <b>OtPokemon</b>. Ao rodar, ele
+  lê as mensagens do chat e a posição do player, identifica situações e executa ações
+  automáticas — respostas programáveis, movimentação e logout/login em ciclo.
+</p>
 
-## 🚀 Como executar o projeto
-### 🛠 Tecnologias e Pré-Requisitos
-Esse projeto usa algumas ferramentas para o seu desenvolvimento:
-- VsCode
-- Python
-- Biblioteca Pyautogui
-- Bibliotecas internas presentes nas importações
-- OtPokemon
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/PyAutoGUI-2C3E50" alt="PyAutoGUI">
+  <img src="https://img.shields.io/badge/tipo-estudo-informational" alt="Estudo">
+</p>
 
-### 🖱️ Instalando e executando
-Baixe o repositório e entre nele
+---
 
-    git clone (https://github.com/GenilsonJrs/OtPokemon_Check.git)
+## 💡 Sobre
 
-Em seguida é preciso baixar as bibliotecas
+Projeto de **estudo** criado para entender, na prática, automação por reconhecimento de
+tela com a biblioteca **PyAutoGUI**: leitura de regiões da tela, detecção de padrões e
+simulação de teclado/mouse. O objetivo é compreender melhor o funcionamento do jogo e
+explorar técnicas de automação — não há intenção de uso abusivo.
 
-    pip install Pyautogui...
+## ✨ O que faz
 
-Agora você pode executar o código após a configuração e preferências de acordo com seu jogo, execute o comando:
+- 💬 **Lê as mensagens** do chat e reage com respostas programáveis.
+- 🧭 **Checa a posição** do player e realiza movimentos automáticos.
+- 🔁 **Executa em loop**: após agir, faz logout e volta depois de um tempo definido.
 
-    Python chat.py
+## 🚀 Como executar
 
-## 🧠 Como contribuir para o projeto
+### Pré-requisitos
 
-O Bot ainda está em desenvlvimento e foi feito para estudo, caso queira contribuir de alguma forma ou tenha dúvidas, basta entrar em contato.
+- [Python](https://www.python.org/)
+- Biblioteca **PyAutoGUI** (e as demais listadas nas importações)
+- O jogo **OtPokemon** aberto
 
+### Passos
 
-## 👨 Desenvolvedores
+```bash
+git clone https://github.com/GenilsonJrs/otpokemon-check.git
+cd otpokemon-check
+pip install pyautogui
+```
 
-<table>
-	<tr>
-        <td align="center"><a href="https://github.com/GenilsonJrs"><img src="https://avatars.githubusercontent.com/u/61212256?v=4" width="100px;" alt=""/><br /><sub><b>Genilson Junior </b></sub></a><br /><a href="https://github.com/GenilsonJrs"></a></td>
-</table>
+Ajuste as preferências e coordenadas de acordo com a sua resolução/janela do jogo e
+execute:
 
-## 📝 Licença
-...
+```bash
+python chat.py
+```
+
+## ⚠️ Aviso
+
+Ferramenta desenvolvida exclusivamente para fins educacionais e de estudo de automação.
+Use por sua conta e risco e respeite os termos de serviço do jogo.
+
+## 👤 Autor
+
+[Genilson Junior](https://github.com/GenilsonJrs)

@@ -1,4 +1,4 @@
-<h1 align="center">🎮 OtPokemon Check</h1>
+<h1 align="center">OtPokemon Check</h1>
 
 <p align="center">
   Bot de automação por <b>visão de tela</b> para o jogo <b>OtPokemon</b>. Ao rodar, ele
@@ -14,20 +14,20 @@
 
 ---
 
-## 💡 Sobre
+## Sobre
 
 Projeto de **estudo** criado para entender, na prática, automação por reconhecimento de
 tela com a biblioteca **PyAutoGUI**: leitura de regiões da tela, detecção de padrões e
 simulação de teclado/mouse. O objetivo é compreender melhor o funcionamento do jogo e
 explorar técnicas de automação — não há intenção de uso abusivo.
 
-## ✨ O que faz
+## O que faz
 
-- 💬 **Lê as mensagens** do chat e reage com respostas programáveis.
-- 🧭 **Checa a posição** do player e realiza movimentos automáticos.
-- 🔁 **Executa em loop**: após agir, faz logout e volta depois de um tempo definido.
+- **Lê as mensagens** do chat e reage com respostas programáveis.
+- **Checa a posição** do player e realiza movimentos automáticos.
+- **Executa em loop**: após agir, faz logout e volta depois de um tempo definido.
 
-## 🚀 Como executar
+## Como executar
 
 ### Pré-requisitos
 
@@ -50,11 +50,11 @@ execute:
 python chat.py
 ```
 
-## ⚠️ Aviso
+## Aviso
 
 Ferramenta desenvolvida exclusivamente para fins educacionais e de estudo de automação.
 Use por sua conta e risco e respeite os termos de serviço do jogo.
 
-## 👤 Autor
+## Autor
 
 [Genilson Junior](https://github.com/GenilsonJrs)
